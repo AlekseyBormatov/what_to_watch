@@ -79,4 +79,3 @@ def add_opinion():
 def get_random_opinion():
     opinion = random_opinion()
     return jsonify({'opinion': opinion.to_dict()}), 200
-
