@@ -34,4 +34,5 @@ class Opinion(db.Model):
             if field in data:
                 # Если есть, добавляем значение из словаря
                 # в соответствующее поле объекта модели:
-                setattr(self, field, data[field]) 
+                setattr(self, field, data[field])
+
